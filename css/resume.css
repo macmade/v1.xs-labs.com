@@ -1,0 +1,185 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                 XS-Labs © 2013                 #
+#                                                #
+##################################################
+*/
+
+DIV#xs-content DIV.resume-stackoverflow {
+    border:                 solid 1px #DBDDE1;
+    background-color:       #FFFFFF;
+    border-radius:          10px;
+    padding:                10px;
+    margin-top:             15px;
+}
+
+DIV#xs-content DIV.resume-box {
+    margin:                 0px;
+    padding:                1px;
+    border:                 solid 1px #DBDDE1;
+    margin-bottom:          10px;
+    padding-bottom:         10px;
+    background-color:       #FFFFFF;
+    border-radius:          10px;
+}
+
+DIV#xs-content DIV.resume-row {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV#xs-content DIV.resume-col-left {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  175px;
+    text-align:             left;
+    font-weight:            bold;
+    border-bottom:          solid 1px #DBDDE1;
+    padding-bottom:         5px;
+    margin-left:            10px;
+    margin-top:             10px;
+    margin-right:           50px;
+}
+
+DIV#xs-content DIV.resume-col-right {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  560px;
+    text-align:             left;
+    margin-top:             10px;
+}
+
+DIV#xs-content DIV.resume-col-right UL {
+    margin:                 0px;
+    padding:                0px;
+    margin-left:            15px;
+}
+
+DIV#xs-content DIV.resume-col-right LI {
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV#xs-content DIV.resume-box H4 {
+    background-color:           #E8E9EC;
+    padding:                    10px;
+    border-top-left-radius:     10px;
+    border-top-right-radius:    10px;
+    border-bottom-left-radius:  0px;
+    border-bottom-right-radius: 0px;
+}
+
+DIV#xs-content DIV.cef-header-box {
+    margin:                 0px;
+    padding:                5px;
+    background-color:       #E8E9EC;
+}
+
+DIV#xs-content DIV.cef-header-box DIV.cef-row {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV#xs-content DIV.cef-header-box DIV.cef-col-1,
+DIV#xs-content DIV.cef-header-box DIV.cef-col-2,
+DIV#xs-content DIV.cef-header-box DIV.cef-col-3 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  220px;
+}
+
+DIV#xs-content DIV.cef-header-box DIV.cef-col-4 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  110px;
+}
+
+DIV#xs-content DIV.cef-box {
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV#xs-content DIV.cef-box DIV.cef-row {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 0px;
+    padding:                0px;
+    border-top:             solid 1px #DBDDE1;
+    padding:                5px;
+    font-size:              12px;
+}
+
+DIV#xs-content DIV.cef-box DIV.cef-col-1 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  220px;
+}
+
+DIV#xs-content DIV.cef-box DIV.cef-col-2,
+DIV#xs-content DIV.cef-box DIV.cef-col-3,
+DIV#xs-content DIV.cef-box DIV.cef-col-4,
+DIV#xs-content DIV.cef-box DIV.cef-col-5 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  110px;
+}
+
+DIV#xs-content DIV.cef-box DIV.cef-col-6 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  100px;
+}
+
+DIV#xs-content DIV.cef-native-box {
+    margin:                     0px;
+    padding:                    0px;
+    background-color:           #E8E9EC;
+    margin-bottom:              1px;
+    border-top-left-radius:     10px;
+    border-top-right-radius:    10px;
+    border-bottom-left-radius:  0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+DIV#xs-content DIV.cef-native-box DIV.cef-row {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 0px;
+    padding:                0px;
+    border-bottom:          solid 1px #DBDDE1;
+    padding:                5px;
+}
+
+DIV#xs-content DIV.cef-native-box DIV.cef-col-1 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  220px;
+}
+
+DIV#xs-content DIV.cef-native-box DIV.cef-col-2 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  550px;
+}
+
+/* ]]> */

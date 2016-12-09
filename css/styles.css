@@ -1,0 +1,364 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                 XS-Labs © 2013                 #
+#                                                #
+##################################################
+*/
+
+.hidden {
+    display:                none;
+}
+
+.left {
+    float:                  left;
+}
+
+.right {
+    float:                  right;
+}
+
+.clearer {
+    clear:                  both;
+}
+
+.center {
+    text-align:             center;
+}
+
+.power {
+    vertical-align:         super;
+}
+
+.uppercase {
+    text-transform:         uppercase;
+}
+
+.small {
+    font-size:              12px;
+}
+
+.italic {
+    font-style:             italic;
+}
+
+.big {
+    font-size:              18px;
+}
+
+IMG.img-right {
+    float:                  right;
+    margin-left:            10px;
+    margin-bottom:          10px;
+}
+
+IMG.img-left {
+    float:                  left;
+    margin-right:           10px;
+    margin-bottom:          10px;
+}
+
+DIV.code {
+    color:                  #BFBFBF;
+    background-color:       #1D2327;
+    font-size:              12px;
+    line-height:            12px;
+    overflow:               auto;
+    padding:                15px;
+    border-radius:          20px;
+}
+
+.source {
+    white-space:            pre;
+}
+
+.code-comment {
+    color:                  #7F7F7F;
+    background-color:       inherit;
+}
+
+.code-inline {
+    color:                  #7F7F7F;
+    background-color:       inherit;
+    font-family:            monospace;
+}
+
+.code-keyword {
+    color:                  #678CB1;
+    background-color:       inherit;
+}
+
+.code-pre {
+    color:                  #AE6DA6;
+    background-color:       inherit;
+}
+
+.code-num {
+    color:                  #6C884C;
+    background-color:       inherit;
+}
+
+.code-predefined {
+    color:                  #6FAFAF;
+    background-color:       inherit;
+}
+
+.code-string {
+    color:                  #B37D49;
+    background-color:       inherit;
+    font-style:             italic;
+}
+
+.code-ctag {
+    color:                  #A082BD;
+    background-color:       inherit;
+}
+
+.gallery {
+    overflow:               hidden;
+    height:                 100%;
+}
+
+.gallery DIV {
+    float:                  left;
+    margin-right:           40px;
+    margin-bottom:          20px;
+}
+
+.photo-credit {
+     text-align:            center;
+     font-size:             10px;
+     color:                 #999999;
+     padding:               5px;
+}
+
+UL.floating-list {
+    overflow:               hidden;
+    height:                 100%;
+    list-style:             none;
+    margin:                 0px;
+    padding:                0px;
+}
+
+UL.floating-list LI {
+    float:                  left;
+    width:                  220px;
+    border:                 solid 1px #CCCCCC;
+    background-color:       #FFFFFF;
+    padding:                1px;
+    margin:                 1px;
+    text-align:             center;
+    border-radius:          10px;
+}
+
+UL.floating-list LI A {
+    display:                block;
+    border-radius:          10px;
+    padding:                5px;
+}
+
+UL.floating-list LI A:hover {
+    background-color:       #E8E9EC;
+    text-decoration:        none;
+}
+
+.row {
+    overflow:               hidden;
+    height:                 100%;
+    padding:                5px;
+    font-size:              12px;
+    line-height:            14px;
+}
+
+.col-70 {
+    float:                  left;
+    width:                  70%;
+}
+
+.col-65 {
+    float:                  left;
+    width:                  65%;
+}
+
+.col-60 {
+    float:                  left;
+    width:                  60%;
+}
+
+.col-50 {
+    float:                  left;
+    width:                  50%;
+}
+
+.col-40 {
+    float:                  left;
+    width:                  40%;
+}
+
+.col-35 {
+    float:                  left;
+    width:                  25%;
+}
+
+.col-30 {
+    float:                  left;
+    width:                  20%;
+}
+
+.xs-github-repository-list-group,
+.project-box-group {
+    overflow:               hidden;
+    height:                 100%;
+}
+
+.xs-github-repository-list-item-left,
+.project-box-left {
+    float:                  left;
+}
+
+.xs-github-repository-list-item-right,
+.project-box-right {
+    float:                  right;
+}
+
+.xs-github-repository-list-item-left,
+.xs-github-repository-list-item-right,
+.project-box-left,
+.project-box-right {
+    width:                  49%;
+    border:                 solid 1px #DBDDE1;
+    background-color:       #FFFFFF;
+    border-radius:          10px;
+    margin-bottom:          15px;
+    padding:                1px;
+}
+
+.xs-github-repository-list-item-left H3,
+.xs-github-repository-list-item-right H3,
+.project-box-left H3,
+.project-box-right H3 {
+    background-color:           #E8E9EC;
+    border-top-left-radius:     10px;
+    border-top-right-radius:    10px;
+    border-bottom-left-radius:  0px;
+    border-bottom-right-radius: 0px;
+}
+
+.xs-github-repository-list-item-left H3,
+.xs-github-repository-list-item-right H3 {
+    background-image:       url( 'image/project-icons/box.png' );
+    background-position:    5px center;
+    background-repeat:      no-repeat;
+    padding-left:           45px;
+}
+
+.xs-github-repository-list-item-left H3 A,
+.xs-github-repository-list-item-right H3 A,
+.project-box-left H3 A,
+.project-box-right H3 A {
+    color:                  #5C6370;
+}
+
+.xs-github-repository-list-item-left P,
+.xs-github-repository-list-item-right P,
+.project-box-left P,
+.project-box-right P {
+    padding-left:               10px;
+    padding-right:              10px;
+    text-align:                 left;
+}
+
+.xs-github-repository-commit {
+    border:                 solid 1px #DBDDE1;
+    background-color:       #FFFFFF;
+    border-radius:          10px;
+    margin-bottom:          15px;
+    padding:                1px;
+}
+
+.xs-github-repository-commit-message {
+    padding:                10px;
+}
+
+.xs-github-repository-commit-details {
+    overflow:                   hidden;
+    height:                     100%;
+    font-size:                  12px;
+    background-color:           #E8E9EC;
+    border-top-left-radius:     10px;
+    border-top-right-radius:    10px;
+    border-bottom-left-radius:  0px;
+    border-bottom-right-radius: 0px;
+}
+
+.xs-github-repository-commit-details .xs-github-repository-commit-author-image {
+    float:                  left;
+    padding:                5px;
+}
+
+.xs-github-repository-commit-details .xs-github-repository-commit-author-image IMG {
+    border-radius:          5px;
+}
+
+.xs-github-repository-commit-details .xs-github-repository-commit-infos {
+    float:                  left;
+    padding:                5px;
+}
+
+UL.xs-status-items {
+    overflow:               hidden;
+    height:                 100%;
+    margin-left:            10px;
+    margin-top:             10px;
+    margin-right:           0px;
+    margin-bottom:          0px;
+    padding:                0px;
+    list-style:             none;
+}
+
+UL.xs-status-items-description {
+    margin-left:            10px;
+    margin-top:             0px;
+    margin-right:           0px;
+    margin-bottom:          10px;
+    padding:                0px;
+    list-style:             none;
+}
+
+UL.xs-status-items LI {
+    float:                  left;
+    width:                  150px;
+    margin:                 2px;
+    padding:                0px;
+}
+
+UL.xs-status-items-description LI.xs-status-item-off,
+UL.xs-status-items LI.xs-status-item-off {
+    background-image:       url( "image/xs-status-off.png" );
+    background-repeat:      no-repeat;
+    padding-left:           25px;
+    padding-top:            2px;
+}
+
+UL.xs-status-items-description LI.xs-status-item-dev,
+UL.xs-status-items LI.xs-status-item-dev {
+    background-image:       url( "image/xs-status-dev.png" );
+    background-repeat:      no-repeat;
+    padding-left:           25px;
+    padding-top:            2px;
+}
+
+UL.xs-status-items-description LI.xs-status-item-ok,
+UL.xs-status-items LI.xs-status-item-ok {
+    background-image:       url( "image/xs-status-ok.png" );
+    background-repeat:      no-repeat;
+    padding-left:           25px;
+    padding-top:            2px;
+}
+
+/* ]]> */
